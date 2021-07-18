@@ -1,0 +1,126 @@
+
+@media only screen and (max-width: 1500px){
+    .nav-list{
+        flex-direction: column;
+        transition: all 0.4s ease-in;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 370px;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+        transition: all 0.4s ease-in;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 55px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+        margin: 30px;
+    }
+    .droplets{
+        width: 98%;
+    }
+    
+}
+
+@media only screen and (max-width: 900px){
+    .headingResult{
+        margin: 15px 3px;
+        padding: 5px;
+    }
+    .dataResult{
+    padding: 5px 7px;
+    margin: 14px 12px;
+    }
+    .text-footer{
+        font-size: 10px;
+    }
+    .viewResult{
+        width: 100%;
+    }
+    .heading{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 740px){
+    form header{
+        font-size: 25px;
+    }
+    
+    .droplets{
+        width: 80%;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondHalf img{
+        height: 80px;
+        padding: 8px;
+
+    }
+}
+
+@media only screen and(max-width: 420px){
+    .nav-list li a{
+        font-size: 15px;
+
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .droplets{
+        width: 70%;
+    }
+    .headingResult{
+        font-size: 15px;
+    }
+    .dataResult{
+        font-size: 12px;
+    }
+    form header{
+        font-size: 20px;
+    }
+    .text-big{
+        font-size: 25px;
+    }
+    
+    .secondHalf img{
+        height: 20px;
+        padding: 2px;
+
+    }
+    .nav-list li a{
+        font-size: 15px;
+
+    }
+}
